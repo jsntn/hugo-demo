@@ -1,3 +1,3 @@
 # Hugo Demo
 
-Initial Hugo site with simple [blank](https://github.com/jsntn/blank) theme.
+An very simple Hugo Podcast site using [blank](https://github.com/jsntn/blank) theme with a `rss.xml` layout.
