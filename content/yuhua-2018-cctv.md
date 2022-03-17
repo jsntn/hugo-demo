@@ -2,7 +2,7 @@
 title = "[朗读者第二季] 作家余华朗读《在细雨中呼喊》"
 date = 2018-08-04T21:52:00+00:00
 lastmod = 2022-03-17T03:10:03+00:00
-tags = ["talks"]
+tags = ["podcast"]
 draft = false
 subtitle = "记忆中的故乡——海盐南门"
 description = "只有离开了最熟悉的地方以后，再回来才知道真正的财富在哪里。"
