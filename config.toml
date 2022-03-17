@@ -1,3 +1,31 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseURL = 'https://example.com'
+title = 'Example Site'
+theme = 'blank'
+uglyurls = true
+
+[Params]
+  mainSections = ['posts']
+  baseURL = 'https://example.com'
+  logo = 'https://example.com/images/logo.jpg'
+  author = 'author'
+  email = 'hi@example.com'
+  podcastLanguage = 'en-us'
+  podcastGenerator = 'example.com'
+  itunesCategory1 = 'Society &amp; Culture'
+  itunesCategory2 = 'Personal Journals'
+  podcastLicense = 'CC-BY-SA'
+  podcastTitle = 'Example Site'
+  podcastArt = 'https://example.com/images/art.jpg'
+  podcastSubtitle = 'Example Site Subtitle'
+  podcastSummary = '''
+  <a href="https://example.com">example.com</a>
+  '''
+
+[outputFormats]
+  [outputFormats.rss]
+    baseName = 'rss'
+    mediaType = 'application/rss+xml'
+    isPlainText = true
+
+[outputs]
+  home = ['html', 'rss']
