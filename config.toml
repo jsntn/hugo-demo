@@ -22,10 +22,10 @@ uglyurls = true
   '''
 
 [outputFormats]
-  [outputFormats.rss]
-    baseName = 'rss'
+  [outputFormats.feed]
+    baseName = 'feed'
     mediaType = 'application/rss+xml'
     isPlainText = true
 
 [outputs]
-  home = ['html', 'rss']
+  home = ['html', 'feed']
